@@ -4,8 +4,11 @@ LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and R
 
 ## LIRI uses the following commands:
 spotify-this-song
+
 movie-this
+
 concert-this
+
 do-what-it-says
 
 ## Demo 
@@ -16,12 +19,17 @@ https://drive.google.com/file/d/12lRSNysxH7GVqrTUpPQsoKdxmC87egrt/view
 
 ## Technologies Used:
 Node.js
+
 Javascript
 
 npm packages:
+
 Node-Spotify-API
+
 dotenv
+
 Axios
+
 Moment
 
 ## How to Run LIRI-Bot
@@ -35,7 +43,9 @@ This will show the following information about the song in your terminal/bash wi
 
 Artist Name
 The song's name
+
 A preview link of the song from Spotify
+
 The album that the song is from
 
 Step Three: node liri.js movie-this <movie name>.
@@ -43,12 +53,19 @@ Step Three: node liri.js movie-this <movie name>.
 This will show the following information about the song in your terminal/bash window:
 
 Title of the movie.
+
 Year the movie came out.
+
 IMDB Rating of the movie.
+
 Rotton Tomatoes rating.
+
 Country where the movie was produced.
+
 Language of the movie.
+
 Plot of the movie.
+
 Actors in the movie.
 
 Step Four: node liri.js do-what-it-says
