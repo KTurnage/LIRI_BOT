@@ -25,6 +25,7 @@ function concertThis(request) {
             }
             for (i = 0; i < length; i++) {
                 console.log(`Venue: ${response.data[i].venue.name}`);
+                console.log(`Location: ${response.data[i].venue.city}, ${response.data[i].venue.region}`);
             }
         })
 };
